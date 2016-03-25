@@ -34,14 +34,14 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <stddef.h>
-#include "bits.h"
-#include "apdu.h"
-#include "bacdef.h"
-#include "bacdcode.h"
-#include "bacenum.h"
-#include "tsm.h"
-#include "dcc.h"
-#include "iam.h"
+#include <bits.h>
+#include <apdu.h>
+#include <bacdef.h>
+#include <bacdcode.h>
+#include <bacenum.h>
+#include <tsm.h>
+#include <dcc.h>
+#include <iam.h>
 
 /** @file apdu.c  Handles APDU services */
 

@@ -92,7 +92,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include "fifo.h"
+#include <fifo.h>
 
 /**
 * Returns the number of bytes in the FIFO

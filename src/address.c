@@ -36,12 +36,12 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "config.h"
-#include "bacaddr.h"
-#include "address.h"
-#include "bacdef.h"
-#include "bacdcode.h"
-#include "readrange.h"
+#include <config.h>
+#include <bacaddr.h>
+#include <address.h>
+#include <bacdef.h>
+#include <bacdcode.h>
+#include <readrange.h>
 
 /** @file address.c  Handle address binding */
 

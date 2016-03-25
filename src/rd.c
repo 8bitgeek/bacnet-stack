@@ -32,10 +32,10 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <stdint.h>
-#include "bacenum.h"
-#include "bacdcode.h"
-#include "bacdef.h"
-#include "rd.h"
+#include <bacenum.h>
+#include <bacdcode.h>
+#include <bacdef.h>
+#include <rd.h>
 
 /** @file rd.c  Encode/Decode Reinitialize Device APDUs */
 #if BACNET_SVC_RD_A

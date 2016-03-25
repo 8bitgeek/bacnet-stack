@@ -32,8 +32,8 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 
-#include "assert.h"
-#include "timestamp.h"
+#include <assert.h>
+#include <timestamp.h>
 
 /** @file timestamp.c  Encode/Decode BACnet Timestamps  */
 

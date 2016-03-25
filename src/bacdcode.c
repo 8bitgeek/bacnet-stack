@@ -34,13 +34,13 @@
 
 #include <string.h>
 
-#include "bacdef.h"
-#include "bacdcode.h"
-#include "bacenum.h"
-#include "bits.h"
-#include "bacstr.h"
-#include "bacint.h"
-#include "bacreal.h"
+#include <bacdef.h>
+#include <bacdcode.h>
+#include <bacenum.h>
+#include <bits.h>
+#include <bacstr.h>
+#include <bacint.h>
+#include <bacreal.h>
 
 /** @file bacdcode.c  Functions to encode/decode BACnet data types */
 

@@ -37,7 +37,7 @@
 #include <stdio.h>      /* Standard I/O */
 #include <stdlib.h>     /* Standard Library */
 #include <stdarg.h>
-#include "debug.h"
+#include <debug.h>
 
 /** @file debug.c  Debug print function */
 

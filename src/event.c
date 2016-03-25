@@ -32,11 +32,11 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <assert.h>
-#include "event.h"
-#include "bacdcode.h"
-#include "npdu.h"
-#include "device.h"
-#include "timestamp.h"
+#include <event.h>
+#include <bacdcode.h>
+#include <npdu.h>
+#include <device.h>
+#include <timestamp.h>
 
 /** @file event.c  Encode/Decode Event Notifications */
 

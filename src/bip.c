@@ -34,11 +34,11 @@
 
 #include <stdint.h>     /* for standard integer types uint8_t etc. */
 #include <stdbool.h>    /* for the standard bool type. */
-#include "bacdcode.h"
-#include "bacint.h"
-#include "bip.h"
-#include "bvlc.h"
-#include "net.h"        /* custom per port */
+#include <bacdcode.h>
+#include <bacint.h>
+#include <bip.h>
+#include <bvlc.h>
+#include <net.h>        /* custom per port */
 #if PRINT_ENABLED
 #include <stdio.h>      /* for standard i/o, like printing */
 #endif

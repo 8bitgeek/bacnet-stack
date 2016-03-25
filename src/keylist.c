@@ -42,7 +42,7 @@
 
 #include <stdlib.h>
 
-#include "keylist.h"    /* check for valid prototypes */
+#include <keylist.h>    /* check for valid prototypes */
 
 #ifndef FALSE
 #define FALSE 0

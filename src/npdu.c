@@ -33,13 +33,13 @@
 ####COPYRIGHTEND####*/
 #include <stdbool.h>
 #include <stdint.h>
-#include "bacdef.h"
-#include "bacdcode.h"
-#include "bacint.h"
-#include "bacenum.h"
-#include "bits.h"
-#include "npdu.h"
-#include "apdu.h"
+#include <bacdef.h>
+#include <bacdcode.h>
+#include <bacint.h>
+#include <bacenum.h>
+#include <bits.h>
+#include <npdu.h>
+#include <apdu.h>
 
 /** @file npdu.c  Encode/Decode NPDUs - Network Protocol Data Units */
 

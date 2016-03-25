@@ -32,11 +32,11 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 
-#include "bacdcode.h"
-#include "npdu.h"
-#include "device.h"
-#include "timestamp.h"
-#include "bacpropstates.h"
+#include <bacdcode.h>
+#include <npdu.h>
+#include <device.h>
+#include <timestamp.h>
+#include <bacpropstates.h>
 
 /** @file bacpropstates.c  Encode/Decode BACnet Application Property States */
 

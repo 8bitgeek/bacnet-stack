@@ -32,10 +32,10 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <stdint.h>
-#include "bacenum.h"
-#include "bacdcode.h"
-#include "bacdef.h"
-#include "getevent.h"
+#include <bacenum.h>
+#include <bacdcode.h>
+#include <bacdef.h>
+#include <getevent.h
 
 /** @file getevent.c  Encode/Decode GetEvent services */
 

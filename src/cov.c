@@ -32,11 +32,11 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <stdint.h>
-#include "bacenum.h"
-#include "bacdcode.h"
-#include "bacdef.h"
-#include "bacapp.h"
-#include "cov.h"
+#include <bacenum.h>
+#include <bacdcode.h>
+#include <bacdef.h>
+#include <bacapp.h>
+#include <cov.h>
 
 /** @file cov.c  Encode/Decode Change of Value (COV) services */
 

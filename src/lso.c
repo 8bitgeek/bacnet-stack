@@ -31,9 +31,9 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include "lso.h"
-#include "bacdcode.h"
-#include "apdu.h"
+#include <lso.h>
+#include <bacdcode.h>
+#include <apdu.h>
 
 /** @file lso.c  BACnet Life Safety Operation encode/decode */
 

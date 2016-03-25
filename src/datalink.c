@@ -31,7 +31,7 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include "datalink.h"
+#include <datalink.h>
 #include <string.h>
 
 /** @file datalink.c  Optional run-time assignment of datalink transport */

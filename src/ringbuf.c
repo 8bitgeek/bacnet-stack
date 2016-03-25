@@ -39,7 +39,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <stdint.h>
-#include "ringbuf.h"
+#include <ringbuf.h>
 
 /****************************************************************************
 * DESCRIPTION: Returns the number of elements in the ring buffer

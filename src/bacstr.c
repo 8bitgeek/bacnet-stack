@@ -35,9 +35,9 @@
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>     /* for strlen */
-#include "config.h"
-#include "bacstr.h"
-#include "bits.h"
+#include <config.h>
+#include <bacstr.h>
+#include <bits.h>
 #if PRINT_ENABLED
 #include <stdlib.h>     /* for strtol */
 #include <ctype.h>      /* for isalnum */

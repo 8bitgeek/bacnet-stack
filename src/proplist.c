@@ -32,10 +32,10 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <stdint.h>
-#include "bacenum.h"
-#include "bacdef.h"
-#include "rpm.h"
-#include "proplist.h"
+#include <bacenum.h>
+#include <bacdef.h>
+#include <rpm.h>
+#include <proplist.h>
 
 /** @file proplist.c  List of Required and Optional object properties */
 

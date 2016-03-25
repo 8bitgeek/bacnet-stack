@@ -36,7 +36,7 @@
 #if PRINT_ENABLED
 #include <stdio.h>
 #endif
-#include "bacprop.h"
+#include <bacprop.h>
 
 /** @file bacprop.c  Lookup BACnet Property Tags */
 

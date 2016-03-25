@@ -51,14 +51,14 @@
 #if PRINT_ENABLED
 #include <stdio.h>
 #endif
-#include "mstp.h"
-#include "crc.h"
-#include "rs485.h"
-#include "mstptext.h"
+#include <mstp.h>
+#include <crc.h>
+#include <rs485.h>
+#include <mstptext.h>
 #if !defined(DEBUG_ENABLED)
 #define DEBUG_ENABLED 1
 #endif
-#include "debug.h"
+#include <debug.h>
 
 #if PRINT_ENABLED
 #undef PRINT_ENABLED_RECEIVE

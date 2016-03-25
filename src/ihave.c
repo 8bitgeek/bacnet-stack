@@ -32,10 +32,10 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 #include <stdint.h>
-#include "bacenum.h"
-#include "bacdcode.h"
-#include "bacdef.h"
-#include "ihave.h"
+#include <bacenum.h>
+#include <bacdcode.h>
+#include <bacdef.h>
+#include <ihave.h>
 
 /** @file ihave.c  Encode/Decode I-Have service */
 

@@ -3,7 +3,7 @@
 
 /** @file bigend.c  Determination of Endianess */
 
-#include "bigend.h"
+#include <bigend.h>
 
 /* Big-Endian systems save the most significant byte first.  */
 /* Sun and Motorola processors, IBM-370s and PDP-10s are big-endian. */

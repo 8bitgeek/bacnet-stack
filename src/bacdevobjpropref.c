@@ -33,11 +33,11 @@
 ####COPYRIGHTEND####*/
 #include <stdint.h>
 #include <stdbool.h>
-#include "bacdcode.h"
-#include "npdu.h"
-#include "device.h"
-#include "timestamp.h"
-#include "bacdevobjpropref.h"
+#include <bacdcode.h>
+#include <npdu.h>
+#include <device.h>
+#include <timestamp.h>
+#include <bacdevobjpropref.h>
 
 /** @file bacdevobjpropref.c  BACnet Application Device Object (Property) Reference */
 

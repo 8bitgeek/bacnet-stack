@@ -33,7 +33,7 @@
 ####COPYRIGHTEND####*/
 #include <stdbool.h>
 #include <string.h>
-#include "indtext.h"
+#include <indtext.h>
 
 /** @file indtext.c  Maps text strings and indices of type INDTEXT_DATA */
 

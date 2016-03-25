@@ -33,7 +33,7 @@
 ####COPYRIGHTEND####*/
 /*#define TEST */
 /*#define TEST_KEY */
-#include "key.h"
+#include <key.h>
 
 /** @file key.c  Tests (only) of key encoding/decoding.  */
 
@@ -41,7 +41,7 @@
 #include <assert.h>
 #include <string.h>
 
-#include "ctest.h"
+#include <ctest.h>
 
 /* test the encode and decode macros */
 void testKeys(

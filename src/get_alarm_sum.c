@@ -38,9 +38,9 @@
 */
 #include <assert.h>
 
-#include "bacdcode.h"
-#include "get_alarm_sum.h"
-#include "npdu.h"
+#include <bacdcode.h>
+#include <get_alarm_sum.h>
+#include <npdu.h>
 
 
 /** Helper function encode the beginning of a GetAlarmSummary ACK.
