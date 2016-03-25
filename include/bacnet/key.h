@@ -24,7 +24,7 @@
 #ifndef KEY_H
 #define KEY_H
 
-#include <stdint.h>
+#include <caribou/lib/stdint.h>
 
 /* This file has the macros that encode and decode the */
 /* keys for the keylist when used with BACnet Object Id's */

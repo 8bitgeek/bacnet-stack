@@ -24,15 +24,14 @@
 #ifndef BACDCODE_H
 #define BACDCODE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "datetime.h"
-#include "bacstr.h"
-#include "bacint.h"
-#include "bacreal.h"
-#include "bits.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/datetime.h>
+#include <bacnet/bacstr.h>
+#include <bacnet/bacint.h>
+#include <bacnet/bacreal.h>
+#include <bacnet/bits.h>
 
 #ifdef __cplusplus
 extern "C" {

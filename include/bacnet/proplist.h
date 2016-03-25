@@ -24,11 +24,10 @@
 #ifndef PROPLIST_H
 #define PROPLIST_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
-#include "bacenum.h"
-#include "rpm.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/rpm.h>
 
 /** @file proplist.h  Library of all required and optional object properties */
 

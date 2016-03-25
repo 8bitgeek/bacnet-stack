@@ -31,12 +31,11 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <config.h>
-#include <bacdef.h>
-#include <bacaddr.h>
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/config.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacaddr.h>
 
 /** @file bacaddr.c  BACnet Address structure utilities */
 

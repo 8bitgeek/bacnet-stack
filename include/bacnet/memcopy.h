@@ -26,8 +26,7 @@
 
 /* Functional Description: Memory copy function */
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

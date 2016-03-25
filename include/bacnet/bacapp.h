@@ -24,12 +24,11 @@
 #ifndef BACAPP_H
 #define BACAPP_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include "bacdef.h"
-#include "bacstr.h"
-#include "datetime.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacstr.h>
+#include <bacnet/datetime.h>
 
 struct BACnet_Application_Data_Value;
 typedef struct BACnet_Application_Data_Value {

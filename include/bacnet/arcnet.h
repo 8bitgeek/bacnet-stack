@@ -24,11 +24,10 @@
 #ifndef ARCNET_H
 #define ARCNET_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
 
 /* specific defines for ARCNET */
 #define MAX_HEADER (1+1+2+2+1+1+1+1)

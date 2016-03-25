@@ -24,10 +24,9 @@
 #ifndef APDU_H
 #define APDU_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include "bacdef.h"
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
 
 typedef struct _confirmed_service_data {
     bool segmented_message;

@@ -24,10 +24,9 @@
 #ifndef DCC_H
 #define DCC_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacenum.h"
-#include "bacstr.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacstr.h>
 
 #ifdef __cplusplus
 extern "C" {

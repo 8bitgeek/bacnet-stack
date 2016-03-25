@@ -24,9 +24,8 @@
 #ifndef BACERROR_H
 #define BACERROR_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -54,8 +54,8 @@
 #endif
 #endif
 
-
-/* Define your processor architecture as
+lkjlkjlkj
+/* Define your processor architecture asojhkjh													
    Big Endian (PowerPC,68K,Sparc) or Little Endian (Intel,AVR)
    ARM and MIPS can be either - what is your setup? */
 #if !defined(BIG_ENDIAN)
@@ -64,10 +64,10 @@
 
 /* Define your Vendor Identifier assigned by ASHRAE */
 #if !defined(BACNET_VENDOR_ID)
-#define BACNET_VENDOR_ID 260
+#define BACNET_VENDOR_ID 884
 #endif
 #if !defined(BACNET_VENDOR_NAME)
-#define BACNET_VENDOR_NAME "BACnet Stack at SourceForge"
+#define BACNET_VENDOR_NAME "Accutron Instruments Inc."
 #endif
 
 /* Max number of bytes in an APDU. */

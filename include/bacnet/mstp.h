@@ -25,10 +25,9 @@
 #ifndef MSTP_H
 #define MSTP_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include "mstpdef.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/mstpdef.h>
 
 struct mstp_port_struct_t {
     MSTP_RECEIVE_STATE receive_state;

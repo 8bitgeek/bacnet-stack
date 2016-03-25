@@ -24,8 +24,7 @@
 #ifndef DATE_TIME_H
 #define DATE_TIME_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 typedef enum BACnet_Weekday {
     BACNET_WEEKDAY_MONDAY = 1,

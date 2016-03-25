@@ -24,12 +24,11 @@
 #ifndef BIP_H
 #define BIP_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "npdu.h"
-#include "net.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
+#include <bacnet/net.h>
 
 /* specific defines for BACnet/IP over Ethernet */
 #define MAX_HEADER (1 + 1 + 2)

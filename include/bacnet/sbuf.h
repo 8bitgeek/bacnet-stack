@@ -27,8 +27,7 @@
 /* Functional Description: Static buffer library for deeply
    embedded system. See the unit tests for usage examples. */
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 struct static_buffer_t {
     char *data; /* block of memory or array of data */

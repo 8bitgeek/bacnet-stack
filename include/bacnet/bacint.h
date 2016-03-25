@@ -24,9 +24,8 @@
 #ifndef BACINT_H
 #define BACINT_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
 
 #ifdef __cplusplus
 extern "C" {

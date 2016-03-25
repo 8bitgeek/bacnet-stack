@@ -31,17 +31,16 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include <bits.h>
-#include <apdu.h>
-#include <bacdef.h>
-#include <bacdcode.h>
-#include <bacenum.h>
-#include <tsm.h>
-#include <dcc.h>
-#include <iam.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bits.h>
+#include <bacnet/apdu.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/tsm.h>
+#include <bacnet/dcc.h>
+#include <bacnet/iam.h>
 
 /** @file apdu.c  Handles APDU services */
 

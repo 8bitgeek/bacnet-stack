@@ -24,11 +24,10 @@
 #ifndef ETHERNET_H
 #define ETHERNET_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
 
 /* specific defines for Ethernet */
 #define MAX_HEADER (6+6+2+1+1+1)

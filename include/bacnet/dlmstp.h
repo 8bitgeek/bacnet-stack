@@ -24,11 +24,10 @@
 #ifndef DLMSTP_H
 #define DLMSTP_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
 
 /* defines specific to MS/TP */
 /* preamble+type+dest+src+len+crc8+crc16 */

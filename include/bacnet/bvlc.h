@@ -24,12 +24,11 @@
 #ifndef BVLC_H
 #define BVLC_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include <time.h>
-#include "bacdef.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/time.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
 
 struct sockaddr_in;     /* Defined elsewhere, needed here. */
 

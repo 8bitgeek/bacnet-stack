@@ -24,10 +24,9 @@
 #ifndef ATOMIC_READ_FILE_H
 #define ATOMIC_READ_FILE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdcode.h"
-#include "bacstr.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacstr.h>
 
 typedef struct BACnet_Atomic_Read_File_Data {
     BACNET_OBJECT_TYPE object_type;

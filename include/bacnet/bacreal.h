@@ -24,9 +24,8 @@
 #ifndef BACREAL_H
 #define BACREAL_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
 
 #ifdef __cplusplus
 extern "C" {

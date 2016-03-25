@@ -24,8 +24,7 @@
 #ifndef ABORT_H
 #define ABORT_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

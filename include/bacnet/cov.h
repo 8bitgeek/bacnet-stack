@@ -24,9 +24,8 @@
 #ifndef COV_H
 #define COV_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacapp.h"
+#include <caribou/stdint.h>
+#include <bacnet/bacapp.h>
 
 typedef struct BACnet_COV_Data {
     uint32_t subscriberProcessIdentifier;

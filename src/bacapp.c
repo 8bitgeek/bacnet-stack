@@ -31,21 +31,18 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stdint.h>
-#include <stdbool.h>
-#include <string.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <bacenum.h>
-#include <bacdcode.h>
-#include <bacint.h>
-#include <bacreal.h>
-#include <bacdef.h>
-#include <bacapp.h>
-#include <bactext.h>
-#include <datetime.h>
-#include <bacstr.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/string.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacint.h>
+#include <bacnet/bacreal.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/bactext.h>
+#include <bacnet/datetime.h>
+#include <bacnet/bacstr.h>
 
 /** @file bacapp.c  Utilities for the BACnet_Application_Data_Value */
 

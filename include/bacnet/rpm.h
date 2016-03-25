@@ -24,11 +24,10 @@
 #ifndef RPM_H
 #define RPM_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacenum.h"
-#include "bacdef.h"
-#include "bacapp.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacapp.h>
 
 /*
  * Bundle together commonly used data items for convenience when calling

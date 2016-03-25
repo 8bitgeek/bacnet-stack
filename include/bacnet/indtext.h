@@ -24,9 +24,8 @@
 #ifndef INDTEXT_H
 #define INDTEXT_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <string.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/string.h>
 
 /* index and text pairs */
 typedef struct {

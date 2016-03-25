@@ -25,10 +25,10 @@
 #ifndef TXBUF_H
 #define TXBUF_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include "config.h"
-#include "datalink.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/config.h>
+#include <bacnet/datalink.h>
 
 extern uint8_t Handler_Transmit_Buffer[MAX_PDU];
 

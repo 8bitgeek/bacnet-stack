@@ -24,11 +24,10 @@
 #ifndef BACSTR_H
 #define BACSTR_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "config.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/config.h>
 
 /* bit strings
    They could be as large as 256/8=32 octets */

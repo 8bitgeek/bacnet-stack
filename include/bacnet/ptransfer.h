@@ -24,8 +24,7 @@
 #ifndef PRIVATE_TRANSFER_H
 #define PRIVATE_TRANSFER_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 typedef struct BACnet_Private_Transfer_Data {
     uint16_t vendorID;

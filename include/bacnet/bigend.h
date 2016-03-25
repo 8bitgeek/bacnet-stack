@@ -44,8 +44,7 @@ extern "C" {
 /* x[2] = 0x03 */
 /* x[3] = 0x04 */
 
-    int big_endian(
-        void);
+    int big_endian(void);
 
 #ifdef __cplusplus
 }

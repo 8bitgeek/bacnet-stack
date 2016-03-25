@@ -24,8 +24,7 @@
 #ifndef REJECT_H
 #define REJECT_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

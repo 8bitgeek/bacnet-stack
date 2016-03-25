@@ -33,9 +33,8 @@
 #endif
 #endif
 
-#include <stdbool.h>
-#include <stdint.h>
-#include "indtext.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/indtext.h>
 
 #ifdef __cplusplus
 extern "C" {

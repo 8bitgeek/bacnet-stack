@@ -24,9 +24,8 @@
 #ifndef BACPROP_H
 #define BACPROP_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
 
 typedef struct {
     signed prop_id;     /* index number that matches the text */

@@ -6,8 +6,7 @@
 #ifndef FIFO_H
 #define FIFO_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 /**
 * FIFO data structure

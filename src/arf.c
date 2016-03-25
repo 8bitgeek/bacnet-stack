@@ -31,11 +31,11 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stdint.h>
-#include <bacenum.h>
-#include <bacdcode.h>
-#include <bacdef.h>
-#include <arf.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/arf.h>
 
 /** @file arf.c  Atomic Read File */
 

@@ -31,11 +31,11 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stdint.h>
-#include <bacenum.h>
-#include <bacdcode.h>
-#include <bacdef.h>
-#include <awf.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/awf.h>
 
 /** @file awf.c  Atomic Write File */
 

@@ -31,17 +31,15 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <config.h>
-#include <bacaddr.h>
-#include <address.h>
-#include <bacdef.h>
-#include <bacdcode.h>
-#include <readrange.h>
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/config.h>
+#include <bacnet/bacaddr.h>
+#include <bacnet/address.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/readrange.h>
 
 /** @file address.c  Handle address binding */
 

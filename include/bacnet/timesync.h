@@ -24,9 +24,8 @@
 #ifndef TIMESYNC_H
 #define TIMESYNC_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
 
 struct BACnet_Recipient_List;
 typedef struct BACnet_Recipient_List {

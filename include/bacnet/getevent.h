@@ -24,12 +24,11 @@
 #ifndef GETEVENT_H
 #define GETEVENT_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
-#include "bacenum.h"
-#include "timestamp.h"
-#include "event.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/timestamp.h>
+#include <bacnet/event.h>
 
 struct BACnet_Get_Event_Information_Data;
 typedef struct BACnet_Get_Event_Information_Data {

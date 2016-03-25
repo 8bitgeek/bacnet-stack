@@ -24,10 +24,9 @@
 #ifndef DEBUG_H
 #define DEBUG_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include "bacdef.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/bacdef.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -24,10 +24,9 @@
 #ifndef WRITEPROPERTY_H
 #define WRITEPROPERTY_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdcode.h"
-#include "bacapp.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacapp.h>
 
 /** @note: write property can have application tagged data, or context tagged data,
    or even complex data types (i.e. opening and closing tag around data).

@@ -24,9 +24,8 @@
 #ifndef IHAVE_H
 #define IHAVE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacstr.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacstr.h>
 
 typedef struct BACnet_I_Have_Data {
     BACNET_OBJECT_ID device_id;

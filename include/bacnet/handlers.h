@@ -25,20 +25,20 @@
 #ifndef HANDLERS_H
 #define HANDLERS_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdio.h>
-#include "bacdef.h"
-#include "apdu.h"
-#include "bacapp.h"
-#include "rd.h"
-#include "rp.h"
-#include "rpm.h"
-#include "wp.h"
-#include "readrange.h"
-#include "getevent.h"
-#include "get_alarm_sum.h"
-#include "alarm_ack.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/apdu.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/rd.h>
+#include <bacnet/rp.h>
+#include <bacnet/rpm.h>
+#include <bacnet/wp.h>
+#include <bacnet/readrange.h>
+#include <bacnet/getevent.h>
+#include <bacnet/get_alarm_sum.h>
+#include <bacnet/alarm_ack.h>
 
 
 #ifdef __cplusplus

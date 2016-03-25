@@ -24,11 +24,10 @@
 #ifndef IAM_H
 #define IAM_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
-#include "bacaddr.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacaddr.h>
+#include <bacnet/npdu.h>
 
 #ifdef __cplusplus
 extern "C" {

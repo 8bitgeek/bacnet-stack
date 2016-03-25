@@ -24,10 +24,10 @@
 #ifndef BACDEF_H
 #define BACDEF_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include "bacenum.h"
-#include "config.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/config.h>
 
 #if defined(_MSC_VER)
 /* Silence the warnings about unsafe versions of library functions */

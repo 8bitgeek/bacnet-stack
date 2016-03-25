@@ -24,7 +24,7 @@
 #ifndef KEYLIST_H
 #define KEYLIST_H
 
-#include "key.h"
+#include <bacnet/key.h>
 
 /* This is a key sorted linked list data library that */
 /* uses a key or index to access the data. */

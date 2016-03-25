@@ -24,11 +24,10 @@
 #ifndef ADDRESS_H
 #define ADDRESS_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
-#include "readrange.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/readrange.h>
 
 #ifdef __cplusplus
 extern "C" {

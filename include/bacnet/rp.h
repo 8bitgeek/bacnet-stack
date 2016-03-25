@@ -24,10 +24,9 @@
 #ifndef READPROPERTY_H
 #define READPROPERTY_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
 
 typedef struct BACnet_Read_Property_Data {
     BACNET_OBJECT_TYPE object_type;

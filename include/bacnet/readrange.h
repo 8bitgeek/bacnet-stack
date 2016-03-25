@@ -24,8 +24,8 @@
 #ifndef READRANGE_H
 #define READRANGE_H
 
-#include "bacstr.h"
-#include "datetime.h"
+#include <bacnet/bacstr.h>
+#include <bacnet/datetime.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -24,11 +24,10 @@
 #ifndef _BAC_PROP_STATES_H_
 #define _BAC_PROP_STATES_H_
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacenum.h"
-#include "bacapp.h"
-#include "timestamp.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/timestamp.h>
 
 typedef enum {
     BOOLEAN_VALUE,

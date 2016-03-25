@@ -24,11 +24,10 @@
 #ifndef TSM_H
 #define TSM_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "npdu.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/npdu.h>
 
 /* note: TSM functionality is optional - only needed if we are
    doing client requests */

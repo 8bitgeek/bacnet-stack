@@ -24,12 +24,11 @@
 #ifndef OBJECTS_H
 #define OBJECTS_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-#include "bacdef.h"
-#include "bacstr.h"
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/stddef.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacstr.h>
+#include <bacnet/bacenum.h>
 
 typedef union BACnetScale_t {
     float Float;

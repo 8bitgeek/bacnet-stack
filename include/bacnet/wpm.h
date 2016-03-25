@@ -25,11 +25,10 @@
 #ifndef WRITEPROPERTYMULTIPLE_H
 #define WRITEPROPERTYMULTIPLE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdcode.h"
-#include "bacapp.h"
-#include "wp.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/wp.h>
 
 #ifdef __cplusplus
 extern "C" {

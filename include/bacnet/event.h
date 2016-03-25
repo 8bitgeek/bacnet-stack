@@ -24,13 +24,12 @@
 #ifndef BACNET_EVENT_H_
 #define BACNET_EVENT_H_
 
-#include "bacenum.h"
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacapp.h"
-#include "timestamp.h"
-#include "bacpropstates.h"
-#include "bacdevobjpropref.h"
+#include <bacnet/bacenum.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/timestamp.h>
+#include <bacnet/bacpropstates.h>
+#include <bacnet/bacdevobjpropref.h>
 
 typedef enum {
     CHANGE_OF_VALUE_BITS,

@@ -31,11 +31,11 @@
  License.
  -------------------------------------------
 ####COPYRIGHTEND####*/
-#include <stdint.h>
-#include <bacenum.h>
-#include <bacdcode.h>
-#include <bacdef.h>
-#include <abort.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/abort.h>
 
 /** @file abort.c  Abort Encoding/Decoding */
 /* Helper function to avoid needing additional entries in service data structures

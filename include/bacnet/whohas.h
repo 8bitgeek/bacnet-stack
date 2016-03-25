@@ -24,9 +24,8 @@
 #ifndef WHOHAS_H
 #define WHOHAS_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacstr.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacstr.h>
 
 typedef struct BACnet_Who_Has_Data {
     int32_t low_limit;  /* deviceInstanceRange */

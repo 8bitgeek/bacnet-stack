@@ -16,8 +16,8 @@
  *   Copyright (C) 2008 John Crispin <blogic@openwrt.org> 
  */
 
-#include <stdbool.h>
-#include <time.h>
+#include <caribou/lib/stdint.h>
+#include <caribou/lib/time.h>
 
 #ifndef _UCI_H__
 #define _UCI_H__

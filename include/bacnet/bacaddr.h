@@ -24,10 +24,9 @@
 #ifndef BACADDR_H
 #define BACADDR_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
 
 #ifdef __cplusplus
 extern "C" {

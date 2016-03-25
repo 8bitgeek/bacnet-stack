@@ -24,11 +24,10 @@
 #ifndef LSO_H
 #define LSO_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacenum.h"
-#include "bacdef.h"
-#include "bacstr.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacstr.h>
 
 #ifdef __cplusplus
 extern "C" {

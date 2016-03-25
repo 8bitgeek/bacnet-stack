@@ -26,11 +26,10 @@
 #ifndef BACNET_GET_ALARM_SUM_H_
 #define BACNET_GET_ALARM_SUM_H_
 
-#include "bacenum.h"
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacapp.h"
-#include "timestamp.h"
+#include <bacnet/bacenum.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/timestamp.h>
 
 
 typedef struct BACnet_Get_Alarm_Summary_Data {

@@ -24,8 +24,7 @@
 #ifndef REINITIALIZE_DEVICE_H
 #define REINITIALIZE_DEVICE_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 typedef struct BACnet_Reinitialize_Device_Data {
     BACNET_REINITIALIZED_STATE state;

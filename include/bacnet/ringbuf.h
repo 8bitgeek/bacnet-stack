@@ -27,8 +27,7 @@
 /* Functional Description: Generic ring buffer library for deeply
    embedded system. See the unit tests for usage examples. */
 
-#include <stdint.h>
-#include <stdbool.h>
+#include <caribou/lib/stdint.h>
 
 struct ring_buffer_t {
     volatile uint8_t *buffer;   /* block of memory or array of data */

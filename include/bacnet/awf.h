@@ -24,9 +24,8 @@
 #ifndef ATOMIC_WRITE_FILE_H
 #define ATOMIC_WRITE_FILE_H
 
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdcode.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdcode.h>
 
 typedef struct BACnet_Atomic_Write_File_Data {
     BACNET_OBJECT_TYPE object_type;

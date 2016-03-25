@@ -27,64 +27,64 @@
 /** @file bacnet.h  This file is designed to reference the entire BACnet stack library */
 
 /* core files */
-#include "version.h"
-#include "config.h"
-#include "address.h"
-#include "apdu.h"
-#include "bacapp.h"
-#include "bacdcode.h"
-#include "bacint.h"
-#include "bacreal.h"
-#include "bacstr.h"
-#include "bacdef.h"
-#include "bacenum.h"
-#include "bacerror.h"
-#include "bactext.h"
-#include "datalink.h"
-#include "indtext.h"
-#include "npdu.h"
-#include "reject.h"
-#include "tsm.h"
+#include <bacnet/version.h>
+#include <bacnet/config.h>
+#include <bacnet/address.h>
+#include <bacnet/apdu.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/bacdcode.h>
+#include <bacnet/bacint.h>
+#include <bacnet/bacreal.h>
+#include <bacnet/bacstr.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/bacerror.h>
+#include <bacnet/bactext.h>
+#include <bacnet/datalink.h>
+#include <bacnet/indtext.h>
+#include <bacnet/npdu.h>
+#include <bacnet/reject.h>
+#include <bacnet/tsm.h>
 
 /* services */
-#include "arf.h"
-#include "awf.h"
-#include "cov.h"
-#include "dcc.h"
-#include "iam.h"
-#include "ihave.h"
-#include "rd.h"
-#include "rp.h"
-#include "rpm.h"
-#include "timesync.h"
-#include "whohas.h"
-#include "whois.h"
-#include "wp.h"
-#include "event.h"
-#include "lso.h"
-#include "alarm_ack.h"
+#include <bacnet/arf.h>
+#include <bacnet/awf.h>
+#include <bacnet/cov.h>
+#include <bacnet/dcc.h>
+#include <bacnet/iam.h>
+#include <bacnet/ihave.h>
+#include <bacnet/rd.h>
+#include <bacnet/rp.h>
+#include <bacnet/rpm.h>
+#include <bacnet/timesync.h>
+#include <bacnet/whohas.h>
+#include <bacnet/whois.h>
+#include <bacnet/wp.h>
+#include <bacnet/event.h>
+#include <bacnet/lso.h>
+#include <bacnet/alarm_ack.h>
 
 /* required object - note: developer must supply the device.c file
    since it is not included in the library.  However, the library
    references the device.c members via the device.h API. */
-#include "device.h"
+#include <device.h>
 
 /* demo objects */
-#include "ai.h"
-#include "ao.h"
-#include "av.h"
-#include "bacfile.h"
-#include "bi.h"
-#include "bo.h"
-#include "bv.h"
-#include "lc.h"
-#include "lsp.h"
-#include "mso.h"
+#include <ai.h>
+#include <ao.h>
+#include <av.h>
+#include <bacfile.h>
+#include <bi.h>
+#include <bo.h>
+#include <bv.h>
+#include <lc.h>
+#include <lsp.h>
+#include <mso.h>
 
 /* demo handlers */
-#include "txbuf.h"
-#include "client.h"
-#include "handlers.h"
+#include <txbuf.h>
+#include <client.h>
+#include <handlers.h>
 
 /* Additions for Doxygen documenting */
 /**

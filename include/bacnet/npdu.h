@@ -24,10 +24,9 @@
 #ifndef NPDU_H
 #define NPDU_H
 
-#include <stdbool.h>
-#include <stdint.h>
-#include "bacdef.h"
-#include "bacenum.h"
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/bacenum.h>
 
 /** Hop count default is required by BTL to be maximum */
 #ifndef HOP_COUNT_DEFAULT

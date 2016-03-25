@@ -24,8 +24,8 @@
 #ifndef CRC_H
 #define CRC_H
 
-#include <stddef.h>
-#include <stdint.h>
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
 
 #ifdef __cplusplus
 extern "C" {

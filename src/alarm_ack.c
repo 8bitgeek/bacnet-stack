@@ -32,7 +32,7 @@
  -------------------------------------------
 ####COPYRIGHTEND####*/
 
-#include <alarm_ack.h>
+#include <bacnet/alarm_ack.h>
 
 /** @file alarm_ack.c  Handles Event Notifications (ACKs) */
 

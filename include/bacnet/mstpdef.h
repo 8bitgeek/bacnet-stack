@@ -24,10 +24,9 @@
 #ifndef MSTPDEF_H
 #define MSTPDEF_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
-#include "bacdef.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdint.h>
+#include <bacnet/bacdef.h>
 
 /*  The value 255 is used to denote broadcast when used as a */
 /* destination address but is not allowed as a value for a station. */

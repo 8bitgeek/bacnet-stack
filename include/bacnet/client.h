@@ -25,20 +25,19 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdio.h>
-#include "bacdef.h"
-#include "apdu.h"
-#include "npdu.h"
-#include "bacapp.h"
-#include "bacenum.h"
-#include "rpm.h"
-#include "cov.h"
-#include "event.h"
-#include "lso.h"
-#include "alarm_ack.h"
-#include "ptransfer.h"
+#include <caribou/lib/stddef.h>
+#include <caribou/lib/stdio.h>
+#include <bacnet/bacdef.h>
+#include <bacnet/apdu.h>
+#include <bacnet/npdu.h>
+#include <bacnet/bacapp.h>
+#include <bacnet/bacenum.h>
+#include <bacnet/rpm.h>
+#include <bacnet/cov.h>
+#include <bacnet/event.h>
+#include <bacnet/lso.h>
+#include <bacnet/alarm_ack.h>
+#include <bacnet/ptransfer.h>
 
 #ifdef __cplusplus
 extern "C" {
